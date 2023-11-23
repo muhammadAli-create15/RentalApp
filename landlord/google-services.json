@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "887713948316",
+    "firebase_url": "https://landlord-217b2-default-rtdb.firebaseio.com",
+    "project_id": "landlord-217b2",
+    "storage_bucket": "landlord-217b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887713948316:android:866d723c6105c6fca40359",
+        "android_client_info": {
+          "package_name": "com.example.landlord"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlrDIJdh-rc9_bDbwQd5M_5C4tJ10jeDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

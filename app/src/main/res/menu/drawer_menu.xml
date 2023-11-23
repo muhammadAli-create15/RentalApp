@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tvProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+    <item
+        android:id="@+id/tvTransactions"
+        android:title="Transactions"
+        android:icon="@drawable/ic_baseline_transfer_within_a_station_24"/>
+    <item
+        android:id="@+id/tvRefer"
+        android:title="Refer to a friend"
+        android:icon="@drawable/ic_baseline_output_24"/>
+    <item
+        android:id="@+id/tvSettings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+    <item
+        android:id="@+id/tvHelp"
+        android:title="Help and Support"
+        android:icon="@drawable/ic_baseline_help_24"/>
+    <item
+        android:id="@+id/tvLog"
+        android:title="Logout"
+        android:icon="@drawable/ic_baseline_logout_24"/>
+
+</menu>

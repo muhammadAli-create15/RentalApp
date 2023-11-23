@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="394dp"
+            android:layout_height="427dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="342dp"
+                    android:layout_height="wrap_content"
+                    android:text="Find a Rental House Near You"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rectangular"
+                    android:drawableLeft="@drawable/ic_baseline_search_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="Enter Location,workplace" />
+
+                <EditText
+                    android:id="@+id/editRentals"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rectangular"
+                    android:drawableLeft="@drawable/ic_baseline_search_24"
+                    android:drawableRight="@drawable/ic_baseline_expand_more_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="Type of Rentals" />
+
+                <EditText
+                    android:id="@+id/editSecurity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rectangular"
+                    android:drawableLeft="@drawable/ic_baseline_security_24"
+                    android:drawableRight="@drawable/ic_baseline_expand_more_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="Security" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtMinimum"
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rectangular"
+                        android:drawableLeft="@drawable/ic_baseline_save_24"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:text="Budget min" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
+
+                    <EditText
+                        android:id="@+id/edtMaximum"
+                        android:layout_width="136dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rectangular"
+                        android:drawableLeft="@drawable/ic_baseline_save_24"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:text="Budget max" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/edtFind"
+                    android:layout_width="323dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FF3700B3"
+                    android:text="Find a Rental House"
+                    android:textColor="#FFFFFFFF" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

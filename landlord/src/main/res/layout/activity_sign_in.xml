@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_In">
+
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="365dp"
+        android:layout_height="82dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textSize="12pt"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <EditText
+        android:id="@+id/tvPassword"
+        android:layout_width="332dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="200dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toTopOf="@+id/edtSignIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:passwordToggleEnabled="true" />
+
+    <Button
+        android:id="@+id/edtSignIn"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="164dp"
+        android:backgroundTint="#3D5AFE"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/edtRecover"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:text="Forgot Password"
+        android:textSize="10pt"
+        android:textColor="#FFBB86FC"
+        app:layout_constraintBottom_toTopOf="@+id/edtSignIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

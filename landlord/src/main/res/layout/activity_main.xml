@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Space android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Name" />
+        <Space android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <EditText
+            android:id="@+id/editEmailAddress"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:minHeight="48dp" />
+        <Space android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:id="@+id/edtLog"
+            android:layout_width="249dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="#3D5AFE"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"/>
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:id="@+id/haveAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textColor="#FF018786"
+            android:textSize="10pt"/>
+
+
+    </LinearLayout>
+</FrameLayout>
